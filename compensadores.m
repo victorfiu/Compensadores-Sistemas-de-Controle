@@ -1,4 +1,4 @@
-% O Script é dividido por seções para cálculos constantes de erro estático
+% O Script é dividido por seções para cálculos das constantes de erro estático
 % e obtenção do compensador. 
 
 ### % Indica onde deve ser colocado os valores solicitados pela questão 
@@ -317,4 +317,5 @@ xlim([0 1]);  % Ajuste o valor máximo conforme necessário
 ylim([0 1]);  % Ajuste conforme sua resposta
 
 figure; 
+
 step(1/(s*(1+Gc*g))); %Para verificar valor do erro estacionário
